@@ -88,7 +88,8 @@ BO_ 564 SteeringWheelSensor: 5 Steering_Wheel_Sensor
  SG_ RotationSpeed : 16|8@1+ (4,0) [0|0] "" Vector__XXX
  SG_ Acc_Angle : 0|16@1- (0.1,0) [0|0] "Degrees" Vector__XXX
 
-BO_ 1798 VCU_Torque: 4 VCU
+BO_ 1798 VCU_Torque: 5 VCU
+ SG_ Max_Torque : 32|8@1- (1,0) [0|0] "" Vector__XXX
  SG_ ECU_TorqueAcut : 16|16@1- (0.1,0) [0|0] "Percent" Vector__XXX
  SG_ ECU_TorqueReq : 0|16@1- (0.1,0) [0|0] "Percent" Vector__XXX
 
