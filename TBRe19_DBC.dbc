@@ -45,6 +45,7 @@ VAL_TABLE_ Fault_Codes 18575 "Sensorless Startup" 17868 "Mains Over Voltage" 195
 
 
 BO_ 3221225472 VECTOR__INDEPENDENT_SIG_MSG: 0 Vector__XXX
+ SG_ Test_Sig : 0|8@1- (1,0) [0|0] "" Vector__XXX
  SG_ BrakePot_Voltage : 0|16@1+ (1,0) [0|65535] "mV" Vector__XXX
  SG_ GPS_Long : 0|16@1+ (1,0) [0|65535] "" Vector__XXX
  SG_ MCU_Error : 0|1@1+ (1,0) [0|1] "" Vector__XXX
