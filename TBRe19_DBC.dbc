@@ -1,4 +1,4 @@
-VERSION ""
+VERSION "HIPBNYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYY/4/%%%/4/'%**4YYY///"
 
 
 NS_ : 
@@ -22,26 +22,10 @@ NS_ :
 	SIG_GROUP_
 	SIG_VALTYPE_
 	SIGTYPE_VALTYPE_
-	BO_TX_BU_
-	BA_DEF_REL_
-	BA_REL_
-	BA_DEF_DEF_REL_
-	BU_SG_REL_
-	BU_EV_REL_
-	BU_BO_REL_
-	SG_MUL_VAL_
 
 BS_:
 
 BU_: Sensor_Board Steering_Wheel_Sensor Accelerometer Dashboard Wireless_Board Shutdown_Circuit BMS MCU Diagnostics Motor_Control VCU
-VAL_TABLE_ MCU_Config_Parameter 14 "Undervoltage Min Voltage" 13 "Undervoltage Limit Gain" 12 "Undervoltage Limit" 11 "Overvoltage Limit" 10 "Motor Phase Offset Compensation" 9 "Auto-Aligning Current" 8 "Feedback Resolution" 7 "Feedback Type" 6 "Motor Temperature Sensor" 5 "Motor Rated Torque" 4 "Motor Rated Current" 3 "Motor Pole Pairs" 2 "FOC Delay" 1 "Motor type" 0 "Start up" ;
-VAL_TABLE_ MCU_NMT_Mode 3 "Operational" 2 "Pre-Operational" 1 "Reset" 0 "Stopped" ;
-VAL_TABLE_ Pedal_Sensor_Failure_Mode 4 "Complete pedal box failure" 3 "Brake sensor failure" 2 "Throttle sensor 2 failure" 1 "Throttle sensor 1 failure" 0 "No error, pedal sensors ok" ;
-VAL_TABLE_ MCU_Error_Codes 5 "Description for the value '0x5'" 4 "Description for the value '0x4'" 3 "Description for the value '0x3'" 2 "Description for the value '0x2'" 1 "Description for the value '0x1'" 0 "Description for the value '0x0'" ;
-VAL_TABLE_ Statusword_values 13 "Fault_Off" 8 "Enabled" 7 "Energised" 4 "Precharge" 2 "Shutdown" 1 "Not_ready_to_switch_on" 0 "None" ;
-VAL_TABLE_ Heartbeat 127 "System in pre-operational mode" 5 "System in operational mode" 0 "boot-up" ;
-VAL_TABLE_ OperationValues 128 "Return to pre-operational" 1 "Enable operational" ;
-VAL_TABLE_ Fault_Codes 18575 "Sensorless Startup" 17868 "Mains Over Voltage" 19585 "HVIL loop Broken" 22401 "CANopen Anon EMCY level 5" 22337 "Invalid power Frame rating" 21711 "IGBT M3 High driver" 21710 "IGBT M3 Low driver" 21709 "IGBT M2 High driver" 21708 "IGBT M2 Low driver" 21707 "IGBT M1 High driver" 21706 "Pump FET s/c, IGBT M1 Low driver" 21705 "MOSFET short circuit checks" 21704 "MOSFET s/c M3 to B-" 21703 "MOSFET s/c M3 to B+" 21702 "MOSFET s/c M2 to B-" 21701 "MOSFET s/c M2 to B+" 21700 "MOSFET s/c M1 to B-" 21699 "MOSFET s/c M1 to B+" 21698 "Power Frame Fault" 21697 "PF Overvoltage" 21570 "Calibration Fault" 21569 "Incompatible hardware version" 21377 "CANopen EMCY level 4" 21318 "Internal Supply Out of Range" 21317 "Sheduler Stack Overflow" 21316 "DSP SPI comms Fault" 21315 "Fault List Overflow" 21314 "OSC watchdog Fault" 21313 "Invalid DSP protocol" 21274 "Ren Protocol" 21273 "Mtr Slave in wrong state" 21272 "SDO Bad Error Number" 21271 "SDO Bad SRC" 21270 "SDO Unknown" 21269 "SDO Send Error" 21268 "SDO Len Error" 21267 "SDO Rec Error" 21266 "SDO Toggle Error" 21265 "SDO State Error" 21264 "SDO Abort Error" 21263 "SDO Timeout Error" 21262 "SDO HDL Error" 21261 "CAN ESTAT set" 21260 "CANopen salve in wrong state" 21259 "CANopen Heartbeat Failed" 21258 "Short PDO Recieved" 21257 "Node guarding Failed" 21256 "CAN Off bus" 21255 "CAN overrun" 21254 "HPTX queue overrun" 21253 "HPRX queue overrun" 21252 "LPTX queue overrun" 21251 "LPRX queue overrun" 21250 "Bootup not recieved" 21249 "CANbus Fault" 21191 "Vcap Over Voltage" 21190 "di/dt Fault" 21189 "Encoder Alignment Severe" 21188 "Motor Overspeed Fault" 21187 "Current Control Fault" 21186 "Motor Over Current" 21185 "Encoder Fault" 20993 "Heatsink Overtemp" 20931 "KL 15/30 too High" 20930 "Capacitor Precharge Failure" 20929 "Power Supply Interrupt" 20872 "AOut short Circuit" 20871 "AOut Under Current" 20870 "AOut Over Temperature" 20869 "AOut Off with FS" 20868 "AOut on without FS" 20867 "Analogue Output Over Current" 20866 "Analogue Input Wire Off" 20865 "Digital Input Wire Off" 20803 "VERLOG" 20802 "Ren Signal" 20801 "BeltLoader Fault" 20738 "Line Contactro Welded" 20737 "Line Contactor O/C" 20609 "Invalid Steer Switches" 20550 "Voltage Auto Config Error" 20549 "Auto Configuration Fault" 20548 "Dynamic Range Error" 20547 "Static Range Error" 20546 "VPDO out of range" 20545 "BAD NVM data" 20353 "CANopen Anon EMCY level 3" 20311 "Motor Stalled" 20310 "Motor in Wrong Direction" 20309 "DSP Parameter Error" 20308 "AutoZero Range Error" 20307 "App Manager SS " 20306 "DSP Comms Error" 20305 "DSP Not Detected" 20304 "New Power Frame Detected" 20303 "Trac APP SS Error" 20302 "DMC SS Error" 20301 "VA SS Error" 20300 "OBD SS Error" 20299 "LCP SS Error" 20298 "LCM SS Error" 20297 "GIO SS Error" 20296 "I/O SS Error" 20295 "DSP Heartbeat Error" 20294 "Sheduler Error" 20293 "Queue Error" 20292 "Timer Failed" 20291 "General DSP Error" 20290 "Out Of Memory" 20289 "Internal Fault" 20226 "EMCY send Failed" 20225 "Unexpected Slave State" 20162 "Pulsing Disabled" 20161 "Can't Establush field current" 20097 "RPDO Timeout (severe)" 19907 "Power Supply Critical" 19779 "Motor Stalled" 19778 "Motor Open Circuit Fault" 19777 "Motor Isolation Fault" 19716 "Circuit Breaker Timeout" 19715 "DC Link Collapsed" 19714 "Circuit Breaker Welded" 19713 "Circuit Breaker Open" 19521 "Too Many Slaves" 19329 "CANopen EMCY level 2" 19203 "IO Data Error" 19202 "Ren Data" 19201 "CANbus Off (drive inhibit)" 19073 "RPDO Timeout (drive inhibit)" 18945 "Cutback" 18882 "Entering Cutback" 18819 "Direction Change" 18818 "E-Brake Wire Off" 18817 "Throttle Fault" 18754 "PST Fault" 18753 "Motor Overspeed" 18574 "Mom Dir Fault" 18573 "Belly Fault" 18572 "Tilt Sensor Fault" 18571 "Illegal Mode Fault" 18570 "Traction inhibit Fault" 18569 "Pothole Fault" 18568 "Raised and Tilted Fault" 18567 "Overload Fault" 18566 "Inch Fault" 18565 "FS1 Recycle Fault" 18564 "Sequence Fault" 18563 "SRO Fault" 18562 "Two Direction Fault" 18561 "Seat Fault" 18369 "Vehicle Service required" 18307 "24V Supply High" 18306 "24V Supplu Low" 18305 "CANopen Anon EMCY level 1" 18242 "Internal Supply Out of range" 18241 "Sheduler Stack Overflow warning" 18177 "CAN Warning" 18118 "Encoder PLL Deactivated Warning" 18117 "Stator Resistance Error" 18116 "Motor Pull-Out Warning" 18115 "Fault Ride through" 18114 "SinCos Tracking warning" 18113 "Encoder Alignment warning" 18051 "RPDO Timeout (warning)" 18050 "Io can't init" 18049 "Unit in Pre-Op" 17924 "Motor too Cold" 17923 "Motor in Thermal Cutback" 17922 "Device too hot" 17921 "Device too cold" 17870 "Vcap Vkey Diff" 17869 "KL15/30 too low" 17867 "Mains Under voltage" 17866 "Motor in high voltage cutback" 17865 "Motor in low voltage cutback" 17864 "Vcap Above rated max" 17863 "Vbat Above rated max" 17862 "Vbat Below rated min" 17861 "High Capacitor Cut" 17860 "High Battery Cut" 17859 "Low Battery Cut" 17858 "BDI Cutout" 17857 "BDI warning" 17802 "Seat warning" 17801 "Analogue Supply warning" 17800 "AOut Short Circuit (warn)" 17799 "AOut Under Current (warn)" 17798 "AOut Over Temperature (warn)" 17797 "AOut Off with Failsafe [warn]" 17796 "AOut Over Current [warn]" 17795 "Safety Case 2" 17794 "Safety Case 1" 17793 "Throttle Fault (Warn)" 17741 "Electrolyte Cutout Level" 17740 "Electrolyte Level Low" 17739 "MOSFET s/c test Waiting" 17738 "Bridge Enable Delayed" 17737 "Pulsed Enable" 17736 "Steer Sensor Warning" 17735 "Tow Mode" 17734 "No Motor Speed Signal" 17733 "Isolation Fault" 17732 "Pump Current Low" 17731 "Hydraulic Fault" 17730 "Low Oil / Device test waiting" 17729 "Fan Fault" 17537 "Handbrake Fault" ;
 
 
 BO_ 3221225472 VECTOR__INDEPENDENT_SIG_MSG: 0 Vector__XXX
@@ -56,7 +40,7 @@ BO_ 3221225472 VECTOR__INDEPENDENT_SIG_MSG: 0 Vector__XXX
  SG_ MCU_Pre_Op : 0|1@1+ (1,0) [0|1] "" Vector__XXX
  SG_ MCU_Op : 0|1@1+ (1,0) [0|1] "" Vector__XXX
  SG_ MCU_Supply_Voltage : 0|16@1+ (1,0) [0|65535] "V" Vector__XXX
- SG_ MCU_Target_Velocity : 0|32@1+ (1,0) [0|4294967295] "V" Vector__XXX
+ SG_ MCU_Target_Velocity : 0|32@1+ (1,0) [0|-1] "V" Vector__XXX
  SG_ MCU_DC_Power : 0|32@1- (1,0) [0|0] "W" Vector__XXX
  SG_ MCU_Error_Code : 0|16@1- (1,0) [0|0] "" Vector__XXX
  SG_ MCU_Status_Word : 0|16@1+ (1,0) [0|65535] "" Vector__XXX
@@ -70,8 +54,8 @@ BO_ 3221225472 VECTOR__INDEPENDENT_SIG_MSG: 0 Vector__XXX
  SG_ SDO_Specifier : 0|8@1+ (1,0) [0|0] "" Vector__XXX
  SG_ MCU_OD_Sub_Index : 0|8@1+ (1,0) [0|255] "" Vector__XXX
  SG_ MCU_OD_Index : 0|16@1+ (1,0) [0|65535] "" Vector__XXX
- SG_ SDO_Data : 0|32@1- (1,0) [0|4294967295] "" Vector__XXX
- SG_ SDO_Data : 0|32@1- (1,0) [0|4294967295] "" Vector__XXX
+ SG_ SDO_Data : 0|32@1- (1,0) [0|-1] "" Vector__XXX
+ SG_ SDO_Data : 0|32@1- (1,0) [0|-1] "" Vector__XXX
  SG_ MCU_OD_Sub_Index : 0|8@1+ (1,0) [0|255] "" Vector__XXX
  SG_ MCU_OD_Index : 0|16@1+ (1,0) [0|65535] "" Vector__XXX
  SG_ SDO_Specifier : 0|8@1+ (1,0) [0|255] "" Vector__XXX
@@ -127,16 +111,16 @@ BO_ 569 MCU_TPDO2: 0 MCU
 BO_ 272 MCU_TPDO1: 0 MCU
 
 BO_ 257 BMS_Feedback_2: 8 BMS
- SG_ Avg_Cell_Voltage : 32|16@1+ (0.1,0) [0|6553.5] "mV" Vector__XXX
- SG_ High_Cell_Voltage : 16|16@1+ (0.1,0) [0|6553.5] "mV" Vector__XXX
+ SG_ Avg_Cell_Voltage : 32|16@1+ (0.0001,0) [0|6553.5] "mV" Vector__XXX
+ SG_ High_Cell_Voltage : 16|16@1+ (0.0001,0) [0|6553.5] "mV" Vector__XXX
  SG_ High_Cell_ID : 56|8@1+ (1,0) [0|255] "" Vector__XXX
- SG_ Low_Cell_Voltage : 0|16@1+ (0.1,0) [0|6553.5] "mV" Vector__XXX
+ SG_ Low_Cell_Voltage : 0|16@1+ (0.0001,0) [0|6553.5] "mV" Vector__XXX
  SG_ Low_Cell_ID : 48|8@1+ (1,0) [0|255] "" Vector__XXX
 
 BO_ 256 BMS_Feedback_1: 7 BMS
- SG_ Instant_Pack_Voltage : 0|16@1+ (1,0) [0|65535] "" Vector__XXX
- SG_ Pack_SOC : 16|16@1+ (1,0) [0|65535] "" Vector__XXX
- SG_ Pack_Current : 32|16@1- (1,64) [0|65535] "" Vector__XXX
+ SG_ Instant_Pack_Voltage : 0|16@1+ (0.1,0) [0|65535] "" Vector__XXX
+ SG_ Pack_SOC : 16|16@1+ (0.5,0) [0|65535] "" Vector__XXX
+ SG_ Pack_Current : 32|16@1- (0.1,0) [0|65535] "" Vector__XXX
  SG_ Acu_Fan : 48|8@1+ (1,0) [0|255] "" Vector__XXX
 
 BO_ 1792 VCU_Diagnostics: 8 VCU
@@ -200,12 +184,12 @@ BO_ 112 MCU_NMT_Broadcast: 1 VCU
 BO_ 128 MCU_Sync_MSG: 0 VCU
 
 BO_ 2568814449 HS5_Encoder_Info: 8 Motor_Control
- SG_ Encoder_pos : 0|32@1- (1.52587890625E-005,0) [0|0] "rotations" Vector__XXX
+ SG_ Encoder_pos : 0|32@1- (1.5258789063e-005,0) [0|0] "rotations" Vector__XXX
 
 BO_ 2569928561 HD6_Debug_Control_Data_FV: 8 Motor_Control
  SG_ Debug_Recip_Flux : 48|16@1- (1,0) [0|0] "1/A" Vector__XXX
  SG_ Debug_Iq_max : 32|16@1- (1,0) [0|0] "A" Vector__XXX
- SG_ Debug_Lm_Sat : 16|16@1- (1.52587890625E-005,0) [0|0] "H" Vector__XXX
+ SG_ Debug_Lm_Sat : 16|16@1- (1.5258789063e-005,0) [0|0] "H" Vector__XXX
  SG_ Debug_Slip : 0|16@1- (0.0625,0) [0|0] "rad/s" Vector__XXX
 
 BO_ 2568188273 HC4_Debug_Demands: 8 Motor_Control
@@ -215,7 +199,7 @@ BO_ 2568188273 HC4_Debug_Demands: 8 Motor_Control
  SG_ Debug_Iq_direct_control : 0|16@1- (0.0625,0) [0|0] "A" Vector__XXX
 
 BO_ 2569863025 HD5_Debug_Control_Data_PMAC: 8 Motor_Control
- SG_ Debug_Ls : 48|16@1- (5.960464477539E-008,0) [0|0] "H" Vector__XXX
+ SG_ Debug_Ls : 48|16@1- (5.9604644775e-008,0) [0|0] "H" Vector__XXX
  SG_ Debug_Iq_max : 32|16@1- (1,0) [0|0] "A" Vector__XXX
  SG_ Debug_Iv_lim : 16|16@1- (1,0) [0|0] "A" Vector__XXX
  SG_ Debug_max_flux : 0|16@1- (1,0) [0|0] "A" Vector__XXX
@@ -324,6 +308,13 @@ BO_ 1797 Shutdown_Data: 3 Shutdown_Circuit
  SG_ Fault_ESTP_RollHoop_Shutdown : 8|1@1+ (1,0) [0|1] "" Vector__XXX
  SG_ Fault_ESTP_Dash_Shutdown : 6|1@1+ (1,0) [0|1] "" Vector__XXX
 
+BO_ 258 BMS_Feedback_3: 6 Vector__XXX
+ SG_ Avg_pack_temp : 0|8@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Highest_pack_temp : 8|8@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Lowest_pack_temp : 16|8@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Highest_temp_ID : 24|8@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Lowest_temp_ID : 32|8@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Heatsink_temp : 40|8@1+ (1,0) [0|0] "" Vector__XXX
 
 
 CM_ BU_ Motor_Control "Torque generating inverter";
@@ -385,7 +376,6 @@ BA_DEF_DEF_  "GenMsgSendType" "NoMsgSendType";
 BA_DEF_DEF_  "NmStationAddress" 0;
 BA_DEF_DEF_  "DBName" "";
 BA_DEF_DEF_  "BusType" "CAN";
-BA_ "DBName" "TBRe19";
 BA_ "NmStationAddress" BU_ Sensor_Board 7;
 BA_ "NmStationAddress" BU_ Steering_Wheel_Sensor 9;
 BA_ "NmStationAddress" BU_ Accelerometer 8;
@@ -397,6 +387,6 @@ BA_ "NmStationAddress" BU_ MCU 1;
 BA_ "NmStationAddress" BU_ Diagnostics 11;
 BA_ "NmStationAddress" BU_ Motor_Control 10;
 BA_ "NmStationAddress" BU_ VCU 2;
+BA_ "DBName" "TBRe19";
 VAL_ 1792 Pedal_Sensor_Fail 5 "Complete pedal box failure" 4 "Brake sensor failure" 3 "Both throttles failed" 2 "Throttle sensor 2 failure" 1 "Throttle sensor 1 failure" 0 "No error, pedal sensors ok" ;
 VAL_ 1796 MCU_NMT_Mode 3 "Operational" 2 "Pre-Operational" 1 "Reset" 0 "Stopped" ;
-
