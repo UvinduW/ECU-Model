@@ -111,11 +111,11 @@ BO_ 569 MCU_TPDO2: 0 MCU
 BO_ 272 MCU_TPDO1: 0 MCU
 
 BO_ 257 BMS_Feedback_2: 8 BMS
- SG_ Avg_Cell_Voltage : 32|16@1+ (0.0001,0) [0|6553.5] "mV" Vector__XXX
+ SG_ Avg_Cell_Voltage : 0|16@1+ (0.0001,0) [0|6553.5] "mV" Vector__XXX
  SG_ High_Cell_Voltage : 16|16@1+ (0.0001,0) [0|6553.5] "mV" Vector__XXX
- SG_ High_Cell_ID : 56|8@1+ (1,0) [0|255] "" Vector__XXX
- SG_ Low_Cell_Voltage : 0|16@1+ (0.0001,0) [0|6553.5] "mV" Vector__XXX
- SG_ Low_Cell_ID : 48|8@1+ (1,0) [0|255] "" Vector__XXX
+ SG_ High_Cell_ID : 32|8@1+ (1,0) [0|255] "" Vector__XXX
+ SG_ Low_Cell_Voltage : 40|16@1+ (0.0001,0) [0|6553.5] "mV" Vector__XXX
+ SG_ Low_Cell_ID : 56|8@1+ (1,0) [0|255] "" Vector__XXX
 
 BO_ 256 BMS_Feedback_1: 7 BMS
  SG_ Instant_Pack_Voltage : 0|16@1+ (0.1,0) [0|65535] "" Vector__XXX
