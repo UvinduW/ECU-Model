@@ -81,6 +81,14 @@ BO_ 3221225472 VECTOR__INDEPENDENT_SIG_MSG: 0 Vector__XXX
  SG_ NMT_Command_0 : 0|8@1+ (1,0) [0|0] "" Vector__XXX
  SG_ Vehicle_Speed : 0|16@1+ (0.01,0) [0|655.35] "" Vector__XXX
  SG_ Rear_Wheel_Speed : 0|16@1+ (0.01,0) [0|655.35] "km/h" Vector__XXX
+ SG_ Front_Left_Wheel_Interval : 0|32@1+ (1,0) [0|4294967295] "uS" Vector__XXX
+ SG_ Front_Right_Wheel_Interval : 0|32@1+ (1,0) [0|4294967295] "uS" Vector__XXX
+ SG_ Rear_Left_Wheel_Interval : 0|32@1+ (1,0) [0|4294967295] "uS" Vector__XXX
+ SG_ Rear_Right_Wheel_Interval : 0|32@1+ (1,0) [0|4294967295] "uS" Vector__XXX
+
+BO_ 1284 Wheel_Speed_4: 8 Vector__XXX
+
+BO_ 1283 Wheel_Speed_3: 8 Vector__XXX
 
 BO_ 392 MCU_TPDO5: 0 MCU
 
@@ -106,13 +114,9 @@ BO_ 372 AccelerometerY: 8 Accelerometer
  SG_ Acc_YAxis : 32|16@1+ (0.0001274,0) [0|0] "" Vector__XXX
  SG_ Acc_Yaw : 0|16@1+ (0.005,0) [0|0] "" Vector__XXX
 
-BO_ 1282 Front_Wheel_Speeds: 6 Sensor_Board
- SG_ Front_Left_Wheel_Interval : 16|16@1+ (0.1,0) [0|6553.5] "uS" Vector__XXX
- SG_ Front_Right_Wheel_Interval : 0|16@1+ (0.1,0) [0|6553.5] "uS" Vector__XXX
+BO_ 1282 Wheel_Speeds_2: 6 Sensor_Board
 
-BO_ 1281 Rear_Wheel_Speed: 6 Wireless_Board
- SG_ Rear_Left_Wheel_Interval : 16|16@1+ (0.1,0) [0|6553.5] "uS" Vector__XXX
- SG_ Rear_Right_Wheel_Interval : 0|16@1+ (0.1,0) [0|6553.5] "uS" Vector__XXX
+BO_ 1281 Wheel_Speed_1: 6 Wireless_Board
 
 BO_ 769 MCU_RPDO2: 8 VCU
 
