@@ -312,6 +312,14 @@ BO_ 1797 Shutdown_Data: 3 Shutdown_Circuit
  SG_ Fault_ESTP_RollHoop_Shutdown : 8|1@1+ (1,0) [0|1] "" Vector__XXX
  SG_ Fault_ESTP_Dash_Shutdown : 6|1@1+ (1,0) [0|1] "" Vector__XXX
 
+BO_ 258 BMS_Feedback_3: 8 Vector__XXX
+ SG_ Avg_pack_temp : 0|8@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Highest_pack_temp : 8|8@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Lowest_pack_temp : 16|8@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Highest_temp_ID : 24|8@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Lowest_temp_ID : 32|8@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Heatsink_temp : 40|8@1+ (1,0) [0|0] "" Vector__XXX
+
 
 CM_ BU_ Motor_Control "Torque generating inverter";
 CM_ BU_ VCU "Central vehicle control unit, responsible for generating torque demands for the inverter";
